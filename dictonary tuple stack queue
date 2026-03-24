@@ -1,0 +1,68 @@
+# 1. Two Dictionaries
+
+# Dictionary 1: Student Info
+student = {
+    "name": "Shraddha",
+    "age": 20,
+    "course": "BCA"
+}
+
+# Dictionary 2: Product Info
+product = {
+    "id": 101,
+    "name": "Laptop",
+    "price": 55000
+}
+
+print("Student Dictionary:", student)
+print("Product Dictionary:", product)
+
+
+
+# 2. Two Tuples
+
+
+# Tuple 1: Coordinates
+coordinates = (10, 20)
+
+# Tuple 2: Colors
+colors = ("red", "green", "blue")
+
+print("Coordinates Tuple:", coordinates)
+print("Colors Tuple:", colors)
+
+
+# 3. Stack (LIFO)
+
+
+stack = []
+
+# Push elements
+stack.append(10)
+stack.append(20)
+stack.append(30)
+
+print("Stack after push:", stack)
+
+# Pop element
+stack.pop()
+print("Stack after pop:", stack)
+
+
+# 4. Queue (FIFO)
+
+
+from collections import deque
+
+queue = deque()
+
+# Enqueue elements
+queue.append(1)
+queue.append(2)
+queue.append(3)
+
+print("Queue after enqueue:", list(queue))
+
+# Dequeue element
+queue.popleft()
+print("Queue after dequeue:", list(queue))
